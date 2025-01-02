@@ -8,6 +8,7 @@ import careerIcon from "../assets/triple-corn.png";
 
 export default class AboutMenu extends Component {
   constructor(props) {
+    // This will always start with the first MenuItem and first Subheading
     super(props);
     this.state = {
       activeMenuItem: 1,
